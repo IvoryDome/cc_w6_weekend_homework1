@@ -14,7 +14,7 @@ public abstract class Room {
     public Room(String name, ArrayList occupants) {
         this.name = name;
         this.capacity = capacity;
-        this.occupants = new ArrayList<>(Guest);
+        this.occupants = new ArrayList<Guest>();
     }
 
     public String getName() {

@@ -11,7 +11,7 @@ public enum BedroomType {
 
     BedroomType(String type, int capacity) {
         this.type = type;
-        this.capacity = value;
+        this.capacity = capacity;
     }
 
     public String getType(){

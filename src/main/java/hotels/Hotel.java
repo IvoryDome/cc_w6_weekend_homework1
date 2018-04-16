@@ -11,7 +11,7 @@ public class Hotel {
 
     public Hotel(String name, ArrayList rooms){
         this.name = name;
-        this.rooms = new ArrayList<>();
+        this.rooms = new ArrayList<Room>();
     }
 
 
