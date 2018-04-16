@@ -1,13 +1,11 @@
 package rooms;
 
-import java.util.ArrayList;
-
 public class ConferenceRoom extends Room {
 
     private int capacity;
 
-    public ConferenceRoom(String name, ArrayList occupants, int capacity) {
-        super(name, occupants);
+    public ConferenceRoom(String name, int capacity) {
+        super(name, capacity);
         this.capacity = capacity;
     }
 

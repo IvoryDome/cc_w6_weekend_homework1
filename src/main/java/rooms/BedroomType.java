@@ -1,10 +1,10 @@
 package rooms;
 
 public enum BedroomType {
-    SINGLE(1),
-    DOUBLE(2),
-    FAMILY(4),
-    PRESIDENTIAL_SUITE(2);
+    SINGLE("Single", 1),
+    DOUBLE("Double",2),
+    FAMILY("Family", 4),
+    PRESIDENTIAL_SUITE("Presidential Suite", 2);
 
     private String type;
     private int capacity;

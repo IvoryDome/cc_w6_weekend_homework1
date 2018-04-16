@@ -9,12 +9,12 @@ public class GuestTest {
     Guest guest;
 
     @Before
-    public before(){
+    public void before(){
         guest = new Guest("James Garfield");
     }
 
     @Test
-    public guestHasName(){
+    public void guestHasName(){
         assertEquals("James Garfield", guest.getName());
     }
 }
